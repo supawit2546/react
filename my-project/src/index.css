@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+body {
+    font-family: 'Noto Sans Thai';
+    font-size: 20px;
+}
+.container {
+    max-width: 1220px;
+}
+html {
+    background-color: #F6F6F6;
+}
+.buttonprimary {
+    background-color: #00CE6B;
+    transition: 0.2s ease-in-out;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+.buttonprimary:hover {
+    transform: scale(0.95);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    color: white;
+    background-color: #009e52;
+} 
+.buttonhover {
+    background-color: #00CE6B;
+    transition: 0.2s ease-in-out;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.buttonhover:hover {
+    transform: scale(0.95);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    color: white;
+    background-color: #009e52;
+} 
+.activenav {
+    transition: 0.2s ease-in-out;
+    color: black;
+}
+.activenav:hover {
+    color: gray;
+}
+.inactivenav {
+    transition: 0.2s ease-in-out;
+    color: gray;
+}
+.inactivenav:hover {
+    color: black;
+}
+section {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+input:focus,
+textarea:focus,
+select:focus,
+a:focus {
+  outline: solid 1px rgba(126, 126, 126, 0.459);
+}
+input ,textarea {
+    border-radius: 10px;
+    background-color: #e2e2e2;
+    outline: solid 1px rgba(158, 158, 158, 0);
+}
+
